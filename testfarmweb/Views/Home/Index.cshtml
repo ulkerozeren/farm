@@ -1,0 +1,11 @@
+﻿@model List<testfarmweb.Models.ResultViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+@foreach (var item in Model)
+{
+    @item.NumberOfMonth
+}
+
